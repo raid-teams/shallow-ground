@@ -1,0 +1,8 @@
+<config>
+    <setattribute xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrDesertGround' or @blockname='terrSand' or @blockname='terrDestroyedStone']" name="depth">1</setattribute>
+    <remove xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrDirt']"/>
+    <setattribute xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrStone' or @blockname='terrSandStone'][@depth='1']" name="depth">marked</setattribute>
+    <setattribute xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrStone' or @blockname='terrSandStone'][@depth='*']" name="depth">1</setattribute>
+    <remove xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrStone' or @blockname='terrSandStone'][@depth='marked']"/>
+    <setattribute xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrBedrock']" name="depth">*</setattribute>
+</config>

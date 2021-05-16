@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Shallow Ground" />
+        <Description value="Greatly reduce the depth to bedrock" />
+        <Author value="Jonathan Robertson" />
+        <Version value="1.0" />
+    </ModInfo>
+</xml>
