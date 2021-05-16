@@ -7,6 +7,7 @@ This modlet greatly reduces the depth to `bedrock`, which encourages stable buil
 1. biome depths are all adjusted for a more shallow, trench-warfare experience
     - drastically reduces time necessary to set up a stable base (bedrock is just 2M down)
 2. mineral veins are replaced with just boulders
+    - to offset the reduction of resources, we've boosted boulder frequency
 
 ## Biome Adjustments
 
