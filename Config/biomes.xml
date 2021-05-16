@@ -5,10 +5,25 @@
     <setattribute xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrStone' or @blockname='terrSandStone'][@depth='*']" name="depth">1</setattribute>
     <remove xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrStone' or @blockname='terrSandStone'][@depth='marked']"/>
     <setattribute xpath="/worldgeneration/biomes/biome//layers/layer[@blockname='terrBedrock']" name="depth">*</setattribute>
-
-    <setattribute xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_iron_vein']" name="name">deco_iron_vein_shallow</setattribute>
-    <setattribute xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_coal_vein']" name="name">deco_coal_vein_shallow</setattribute>
-    <setattribute xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_nitrate_vein']" name="name">deco_nitrate_vein_shallow</setattribute>
-    <setattribute xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_lead_vein']" name="name">deco_lead_vein_shallow</setattribute>
-    <setattribute xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_shale_vein']" name="name">deco_shale_vein_shallow</setattribute>
+    
+    <insertAfter xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_iron_vein']">
+        <decoration type="block" blockname="oreIronBoulder" prob=".00657" rotatemax="3"/>
+    </insertAfter>
+    <insertAfter xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_coal_vein']" name="name">
+        <decoration type="block" blockname="oreCoalBoulder" prob=".00657" rotatemax="3"/>
+    </insertAfter>
+    <insertAfter xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_nitrate_vein']" name="name">
+        <decoration type="block" blockname="orePotassiumNitrateBoulder" prob=".00657" rotatemax="3"/>
+    </insertAfter>
+    <insertAfter xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_lead_vein']" name="name">
+        <decoration type="block" blockname="oreLeadBoulder" prob=".00657" rotatemax="3"/>
+    </insertAfter>
+    <insertAfter xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_shale_vein']" name="name">
+        <decoration type="block" blockname="oreShaleBoulder" prob=".00657" rotatemax="3"/>
+    </insertAfter>
+    <remove xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_iron_vein']"/>
+    <remove xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_coal_vein']"/>
+    <remove xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_nitrate_vein']"/>
+    <remove xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_lead_vein']"/>
+    <remove xpath="/worldgeneration/biomes/biome//decorations/decoration[@name='deco_shale_vein']"/>
 </config>
