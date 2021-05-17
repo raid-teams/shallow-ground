@@ -1,0 +1,3 @@
+<config>
+    <remove xpath="/buffs/buff[@name='buffMiningTip']/effect_group/triggered_effect[@buff='buffMiningTipDisplay']"/>
+</config>
