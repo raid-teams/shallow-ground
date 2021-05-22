@@ -8,6 +8,7 @@ This modlet greatly reduces the depth to `bedrock`, which encourages stable buil
     - drastically reduces time necessary to set up a stable base (bedrock is just 2M down)
 2. mineral veins are replaced with just boulders
     - to offset the reduction of resources, we've boosted boulder frequency
+3. removed burried supply and treasure quests to avoid cutting any deeper into the ground
 
 ## Biome Adjustments
 
@@ -30,3 +31,14 @@ deco_coal_vein | oreCoalBoulder
 deco_nitrate_vein | orePotassiumNitrateBoulder
 deco_lead_vein | oreLeadBoulder
 deco_shale_vein | oreShaleBoulder
+
+## Quest Adjustments
+
+Type | Removed
+--- | :---:
+Clear | unmodified
+Fetch | unmodified
+Clear & Fetch | unmodified
+Burried Supplies | removed
+Challenge | unmodified
+Treasure | removed

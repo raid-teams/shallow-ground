@@ -1,0 +1,4 @@
+<config>
+    <remove xpath="/items/item/property[@name='Extends' and @value='treasureQuestMaster']/.." />
+    <remove xpath="/items/item[@name='treasureQuestMaster']" />
+</config>
