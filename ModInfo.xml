@@ -4,6 +4,6 @@
         <Name value="Shallow Ground" />
         <Description value="Greatly reduce the depth to bedrock" />
         <Author value="Jonathan Robertson" />
-        <Version value="1.0.1" />
+        <Version value="1.1.0" />
     </ModInfo>
 </xml>
