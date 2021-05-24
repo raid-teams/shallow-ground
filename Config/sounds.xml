@@ -1,0 +1,11 @@
+<config>
+    <set xpath="/Sounds/SoundDataNode[@name='keystone_impact_overlay']/AudioSource/@name">Sounds/AudioSource_Impact</set>
+    <set xpath="/Sounds/SoundDataNode[@name='keystone_impact_overlay']/AudioClip/@ClipName">Sounds/ThrowImpact/throwstonehitstone1</set>
+    <set xpath="/Sounds/SoundDataNode[@name='keystone_impact_overlay']/LocalCrouchVolumeScale/@value">0.3</set>
+    <set xpath="/Sounds/SoundDataNode[@name='keystone_impact_overlay']/MaxRepeatRate/@value">0.01</set>
+    <append xpath="/Sounds/SoundDataNode[@name='keystone_impact_overlay']">
+        <LowestPitch name="0.9" />
+        <HighestPitch name="1" />
+        <LocalCrouchVolumeScale value="0.3" />
+    </append>
+</config>

@@ -6,6 +6,7 @@ This modlet greatly reduces the depth to `bedrock`, which encourages stable buil
 
 1. biome depths are all adjusted for a more shallow, trench-warfare experience
     - drastically reduces time necessary to set up a stable base (bedrock is just 2M down)
+    - to help address how often players will encounter bedrock as a result, we swapped the trader/lcb/bedrock "gong" sound with something more subtle
 2. mineral veins are replaced with just boulders
     - to offset the reduction of resources, we've boosted boulder frequency
 3. removed burried supply and treasure quests to avoid cutting any deeper into the ground
