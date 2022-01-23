@@ -1,5 +1,5 @@
 <config>
     <remove xpath="/quests/quest/property[@name='category_key' and @value='treasure']/.." />
-    <remove xpath="/quests/quest[@id='tier1_buried_supplies' or @id='tier2_buried_supplies']" />
-    <remove xpath="/quests/quest_list/quest[@id='tier1_buried_supplies' or @id='tier2_buried_supplies']" />
+    <remove xpath="/quests/quest[@id='tier1_buried_supplies' or @id='tier2_buried_supplies' or @id='tier3_buried_supplies']" />
+    <remove xpath="/quests/quest_list/quest[@id='tier1_buried_supplies' or @id='tier2_buried_supplies' or @id='tier3_buried_supplies']" />
 </config>

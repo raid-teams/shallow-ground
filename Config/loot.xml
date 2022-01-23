@@ -1,5 +1,4 @@
 <config>
     <remove xpath="/lootcontainers/lootgroup[@name='groupTreasureMaps']" />
     <remove xpath="/lootcontainers/lootgroup/item[@group='groupTreasureMaps']" />
-    <remove xpath="/lootcontainers/lootcontainer/item[@group='groupTreasureMaps']" />
 </config>
