@@ -10,7 +10,7 @@ This modlet greatly reduces the depth to `bedrock`, which encourages stable buil
     - we have also boosted terrain resource yield to roughly 4x
 2. mineral veins are replaced with just boulders
     - to offset the reduction of resources, we've boosted boulder resource yield to roughly 4x
-3. removed burried supply and treasure quests to avoid cutting any deeper into the ground
+3. removed burried supply and treasure quests since they are impossible to complete (due to chests being blocked by bedrock)
 
 ## Biome Adjustments
 
