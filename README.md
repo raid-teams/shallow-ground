@@ -1,5 +1,7 @@
 # Shallow Ground
 
+![Compatible With A20 b238](https://img.shields.io/badge/Compatibile%20With-A20%20b238-blue.svg)
+
 This modlet greatly reduces the depth to `bedrock`, which encourages stable building (reducing possibility of base-drop) and discourages the hiding of underground buildings.
 
 ## Features
